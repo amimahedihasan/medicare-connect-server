@@ -22,4 +22,4 @@ const collections = {
   reviews: db.collection("reviews"),
 };
 
-module.exports = { client db, collections };
+module.exports = { client, db, collections };
